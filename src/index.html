@@ -15,6 +15,65 @@
 <body>
 <!-- !Header section -->
 <header class="max-w-[1440px] mx-auto mt-10">
+  <div class="navbar bg-base-100">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul
+          tabindex="0"
+          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li> <a href="#" class="font-medium hover:text-primary">Home</a></li>
+        <li> <a href="#" class="font-medium hover:text-primary">Services</a></li>
+        <li> <a href="#" class="font-medium hover:text-primary">Portfoiio</a></li>
+        <li><a href="#" class="font-medium hover:text-primary">Blog</a></li>
+        <li>   <a href="#" class="font-medium hover:text-primary">Contact Us</a></li>
+    
+        </ul>
+      </div>
+      <a class="btn btn-ghost font-bold text-4xl">Rinterio</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <div id="nav-menu" class="text-xl font-semibold flex gap-12">
+          <a href="#" class="font-medium hover:text-primary">Home</a>
+          <a href="#" class="font-medium hover:text-primary">Services</a>
+          <a href="#" class="font-medium hover:text-primary">Portfoiio</a>
+          <a href="#" class="font-medium hover:text-primary">Blog</a>
+          <a href="#" class="font-medium hover:text-primary">Contact Us</a>
+          </div>     
+      </ul>
+    </div>
+    <div class="navbar-end ">
+      <div class=" hidden lg:block "  >
+      <ul class="flex items-center lg:gap-6 px-1 text-lg  ">
+      <li> <a  class="bg-slate-200  size-8 text-center p-2 mt-2 rounded-full  "><i class="fa-solid fa-magnifying-glass"></i></a></li> 
+       <li><a  class="bg-slate-200 size-8 text-center p-2 mt-2 rounded-full"><i class="fa-solid fa-cart-shopping"></i></a></li> 
+       <li><a class="btn font-bold text-lg bg-[#ABEF5F] rounded-lg">Book Consultant</a></li> 
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+
+
+<!-- <header class="max-w-[1440px] mx-auto mt-10">
 
 <nav class="p-3 flex  justify-between top-0 right-0 left-0 z-20 shadow-md items-center bg-center">
   <div>
@@ -38,11 +97,11 @@
  <li><a  class="bg-slate-400 size-8 text-center p-2 mt-2 rounded-full"><i class="fa-solid fa-cart-shopping"></i></a></li> 
  <li><a class="btn font-bold text-lg bg-[#ABEF5F] rounded-lg">Book Consultant</a></li> 
   </ul>
-</div>
+</div> -->
 
 
      <!-- !mobile-nav-part -->
-     <div id="nav-dialog" class="hidden fixed z-10 md:hidden bg-white inset-0 p-3">
+     <!-- <div id="nav-dialog" class="hidden fixed z-10 md:hidden bg-white inset-0 p-3">
       <div id="nav-bar" class="flex justify-between">
           <a href="#" id="brand" class="flex gap-2 items-center">
               <img class="object-cover max-w-12 max-h-12" src="assets/asset 0.png" alt="Logo">
@@ -70,7 +129,7 @@
     </div>
 
     </nav>
-</header>
+</header> -->
 <!-- !banner-section -->
   <div id="hero-section" class="max-w-[1440px] mx-auto mb-20 ">
     <img class="mx-auto mt-2 md:mt-4" src="/src/assets/banner.png" alt="">
